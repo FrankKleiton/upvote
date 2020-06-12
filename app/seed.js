@@ -9,7 +9,7 @@ const submissions = [
 		submissionImage: '../public/images/submissions/image-yellow.png'
 	},
 	{
-		id: 1,
+		id: 2,
 		title: 'Yellow Pail',
 		description:'On-demand sand castle construction expertise',
 		url: '#',
