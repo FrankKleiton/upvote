@@ -15,10 +15,10 @@
       <h2 class="title has-text-centered dividing-header">UpVote!</h2>
 
       <div class="section">
-        <article class="media" v-for="submission in sortedSubmissions" v-bind:key="submission.id" v-bind:class="{ 'blue-border': submission.votes >= 20 }">
+        <article class="media" v-for="submission in sortedSubmissions" :key="submission.id" :class="{ 'blue-border': submission.votes >= 20 }">
           <submission-component 
-            v-bind:submission="submission"
-            v-bind:submissions="sortedSubmissions"
+            :submission="submission"
+            :submissions="sortedSubmissions"
           >    
           </submission-component>
         </article>
