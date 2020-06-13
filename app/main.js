@@ -17,7 +17,7 @@ const submissionComponent = {
             <br />
             <small class="is-size-7">
               Submitted by:
-              <image class="image is-24x24" :src="submission.avatar" />
+              <img class="image is-24x24" :src="submission.avatar" />
             </small>
           </p>
       </div>
