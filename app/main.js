@@ -1,7 +1,7 @@
 const app = new Vue({
   el: '#app',
   data: {
-    submissions: submissions
+    submissions: Seed.submissions
   },
   computed: {
   	sortedSubmissions() {
